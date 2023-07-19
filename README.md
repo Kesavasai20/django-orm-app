@@ -21,11 +21,6 @@ To develop a Django application to store and retrieve data from a database using
 
 ### STEP 6: under the directary "myapp", open "admin.py" and enter the code to set up the admin
 
-
-
-
-Write your own steps
-
 ## PROGRAM
 ### models.py:
 ```py
@@ -61,5 +56,6 @@ admin.site.register(student,StudentAdmin)
 ### Error:
 
 ![Error](primarykey.jpg)
+
 ## RESULT
 The Program is executed successfully.
