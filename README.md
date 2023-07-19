@@ -28,7 +28,7 @@ Write your own steps
 
 ## PROGRAM
 ### models.py:
-'''py
+```py
 from django.db import models
 from django.contrib import admin
 #creat your modelsr=models.CharField(primary_key=True,max_lenght=20,help_text="referencenumber")
@@ -39,20 +39,18 @@ from django.contrib import admin
 
     class StudentAdmin(admin.ModelAdmin):
        list_display=('referencenumber','name','age','email','phonenumber')
-'''
+```
 
 ### admin.py:
-'''py
+```py
 class student (models.Model):
     referencenumbe
 from django.contrib import admin
 from .models import student,StudentAdmin
 
-# Resister your models here.
+# Register your models here.
 admin.site.register(student,StudentAdmin)
-'''
-
-
+```
 
 ## OUTPUT
 
@@ -62,6 +60,6 @@ admin.site.register(student,StudentAdmin)
 
 ### Error:
 
-![Error](primaryerror.jpg)
+![Error](primarykey.jpg)
 ## RESULT
 The Program is executed successfully.
