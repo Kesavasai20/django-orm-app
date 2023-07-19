@@ -42,8 +42,7 @@ from django.contrib import admin
 '''
 
 ### admin.py:
-'''py here.
-
+'''py
 class student (models.Model):
     referencenumbe
 from django.contrib import admin
